@@ -1,0 +1,72 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+    padding-top:50px;
+}
+
+body {
+    border: 8px solid aqua;
+    border-radius: 20px;
+    padding: 40px;
+    width: 60%;
+    height: 400px;
+    margin: 0 auto;
+    background: url('https://wallpaperaccess.com/full/1468857.jpg');
+}
+
+#clock {
+    height:120px;
+    font-size: 40px;
+    font-family: Cambria;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  color: whitesmoke;
+}
+
+h2 {
+	text-align:center;
+}
+#alarm-container {
+	text-align:center;
+    font-family: Tahoma;
+    font-size: 0.8em;
+    padding: 0.9em;
+  color: whitesmoke;
+}
+
+label {
+	display:inline-block;
+}
+
+.timeofday {
+    background-color: whitesmoke;
+}
+
+.bigger {
+    font-weight:bold;
+    font-size: 18px;
+}
+
+#sounds {
+    text-align: center;
+    padding-top: 20px;
+}
+
+#setButton {
+    float:left;
+    background-color:aqua;
+    margin-top:10px;
+}
+#clearButton {
+    float:right;
+    background-color:aquamarine;
+    margin-top:10px;
+}
+
+
+
+
